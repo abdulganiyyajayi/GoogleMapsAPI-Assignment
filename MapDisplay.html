@@ -5,7 +5,7 @@
 <script>
 function initialize() {
   var mapProp = {
-    center:new google.maps.LatLng(51.508742,-0.120850),
+    center:new google.maps.LatLng(6.441033,3.418021),
     zoom:5,
     mapTypeId:google.maps.MapTypeId.ROADMAP
   };
@@ -16,7 +16,15 @@ google.maps.event.addDomListener(window, 'load', initialize);
 </head>
 
 <body>
+<div><b>Google Consumption Assignment </b> <br /> Andela Bootcamp API Assignment</div>
+<div id="googleMap" style="width:500px;height:380px;"></div>
 
+var marker=new google.maps.Marker({
+  position:myCenter,
+  icon:'pinkball.png'
+  });
+
+marker.setMap(map);
 
 </body>
 
