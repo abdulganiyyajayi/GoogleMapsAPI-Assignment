@@ -1,0 +1,1 @@
+This is an implementatn of Google API consumption with javascript
